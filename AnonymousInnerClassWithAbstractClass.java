@@ -10,6 +10,11 @@ package com.kirangs;
  * Name for anonymous class will be created like {classname}$1
  * 
  */
+
+abstract class Person {
+	abstract void eat();
+}
+
 public class AnonymousInnerClassWithAbstractClass {
 
 	public static void main(String[] args) {
@@ -30,6 +35,3 @@ public class AnonymousInnerClassWithAbstractClass {
 
 }
 
-abstract class Person {
-	abstract void eat();
-}
